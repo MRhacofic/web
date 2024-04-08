@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #DAA520; /* Koyu sarı renk */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-bar img {
+    max-height: 40px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons a {
+    margin-left: 10px;
+}
+
+.bottom-bar {
+    background-image: url('https://www.mtu.edu/cs/what/images/what-is-computer-science-banner1600.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /* Arka plan resmini merkezle */
+    background-attachment: fixed; /* Arka planın sabitlenmesi */
+}
+
+.map {
+    padding: 50px 0; /* Yükseklik ayarı */
+    text-align: center; /* İçerik merkezde yer alsın */
+}
+
+.map-inner {
+    max-width: 1200px; /* Harita içeriğinin maksimum genişliği */
+    margin: 0 auto; /* Haritayı ortala */
+}
+
+.map iframe {
+    border: none; /* Iframe kenar çizgisi kaldır */
+    width: 100%; /* Genişlik tümüyle doldurulsun */
+    max-width: 100%; /* Haritanın maksimum genişliği */
+}
